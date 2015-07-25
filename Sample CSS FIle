@@ -1,0 +1,361 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS reset ends my CSS begins */
+
+
+
+* {
+   -moz-box-sizing:    border-box;  
+   -webkit-box-sizing: border-box;   
+    box-sizing:        border-box;  
+	
+}
+
+.container {
+	width: 100%;
+	
+	min-width: 1175px;
+	overflow: hidden;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+/* Header Section */
+
+header {
+	
+}
+
+.title {
+	height: 115px;
+	width: 100%;
+	min-width: 955px;
+	display: inline-block;
+	}
+	
+.title img {
+	float: left;
+	position: relative;
+	top: 15px;
+	left: 75px;
+	width: 400px;
+	height: 100px;
+	margin-right: 100px;
+
+	}
+	
+.phone {
+	float: right;
+	position: relative;
+	top: 25px;
+	right: 65px;
+	
+	font-family: Verdana, sans-serif;
+	font-size: 23px;
+	font-weight: 100;
+	color: #B8B8B8;
+	}
+	
+.phone b {
+	color: #5F5F5F;
+	font-weight: 600;
+}
+
+#btn-1, #btn-2 {
+	height: 30px;
+	
+	float: right;
+	position: relative;
+	display: inline-block;
+	
+	top: -20px;
+	right: 65px;
+	clear: left;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	
+	font-family: Verdana, sans-serif;
+	color: white;
+	font-size: 13px;
+}
+
+#btn-1 {
+	background: #B8B8B8;
+	width: 250px;
+	}
+
+#btn-2 {
+	background: #00CFA6;
+	width: 200px;
+	margin-right: 25px;
+	margin-left: 150px;
+	overflow: auto;
+	cursor: pointer;
+}
+
+nav {
+	clear: both;
+	
+	width: 100%;
+	position: absolute;
+	top: 125px;
+}
+
+.nav-list {
+	display: inline-flex;
+	width: 100%;
+	min-width: 1300px;
+	
+	font-size: 0.85em;
+	font-family: Verdana, sans-serif;
+	
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.nav-list li {
+	display: inline-block;
+	
+	background: #00CFA6;
+	height: 40px;
+	width: 14.32em;
+	
+	border-top: 5px solid #83D2B2;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	
+	height: 35px;
+	width: 95%;
+	position: relative;
+	padding: 10px;
+}
+
+/* Main Section */
+
+.main {
+	position: relative;
+	top: 75px;
+	height: 650px;
+	
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+
+.main_image {
+	position: relative;
+	width: 650px;
+	height: 50%;
+	
+	margin: 0 25px 25px 75px;
+	border-radius: 15px;
+}
+
+.main h2 {
+	position: absolute;
+	top: 0px;
+	left: 95px;
+	height: 25%;
+	width: 40%;
+	z-index: 1;
+	
+	font-size: 45px;
+	font-family: Verdana, sans-serif;
+	color: #B8B8B8;
+	font-weight: 200;
+	line-height: 50px;
+	
+}
+
+.grand {
+	position: relative;
+	bottom: 450px;
+	width: 650px;
+	
+	margin: 0 25px 25px 75px;
+	display: inline-block;
+}
+
+.main h3 {
+	position: relative;
+	bottom: 275px;
+	left: 95px;
+	height: 10%;
+	width: 70%;
+	z-index: 1;
+	
+	margin-top: 55%;
+	
+	font-size: 24px;
+	font-family: Verdana, sans-serif;
+	color: #4A4A4A;
+	font-weight: 200;
+}
+
+.lower {
+	display: inline-block;
+	position: relative;
+	bottom: 400px;
+}
+
+.lower p {
+	width: 90%;
+	margin: 20px 0 0 75px;
+	float: left;
+	
+	font-family: Verdana, sans-serif;
+	color: #4D4D4D;
+}
+
+.lower p b {
+	font-weight: 700;
+	color: #1F1F1F;
+}
+
+/* Right Sidebar Section */
+
+.right {
+	float: right;
+	width: 40%;
+	
+	position: relative;
+	top: 75px;
+}
+
+.right img {
+	width: 450px;
+	
+	height: 110px;
+	margin: 0 10% 0 5%;
+	border-radius: 10px;
+}
+
+.right h5 {
+	display: block;
+	position: relative;
+	bottom: 30px;
+	left: 10%;
+	width: 300px;
+	color: white;
+	font-size: 22px;
+	/*font-size: 1.6vw;*/
+	font-family: Verdana, sans-serif;
+	
+}
+
+.side-list {
+	position: relative;
+	left: 15%;
+	width: 70%;
+	list-style: disc;
+	}
+
+.side-list li {
+	margin: 2.5% 0;
+	font-family: Verdana, sans-serif;
+	line-height: 200%;
+	color: #4D4D4D;
+}
+
+/* Lower Section */
+
+.news {
+	position: relative;
+	/*top: -120px;*/
+	width: 80%;
+	height: 350px;
+	margin: 0 50px;
+}
+
+.news h3 {
+	color: #00CFA6;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 15px 0;
+	padding-left: 50px;
+}
+
+.news p {
+	width: 80%;
+	font-family: Verdana, sans-serif;
+}
+
+/* footer */
+
+.foot {
+	position: relative;
+	top: 0;
+	height: 200px;
+	width: 100%;
+	background: #A3A3A3;
+	clear: both;
+}
+
+.foot h6{
+	position: relative;
+	top: 165px;
+	
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+	font-family: Verdana, sans-serif;
+	color: white;
+	
+}
