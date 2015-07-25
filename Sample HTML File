@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Tor Rydberg">
+	<title>IV Interactive Test</title>
+	<link rel="stylesheet" type="text/css" href="css/samplePageCSS.css">
+</head>
+
+<body>
+<div class="container">
+
+	<header class="title">
+		<img src="http://lorempixel.com/400/100/abstract/3" alt="Main Logo" title="Main Logo">
+		<p class="phone">Call Us: <b>123-456-7890</b></p>
+		<button id="btn-1" type="button">Pork belly t-bone bacon</button>
+		<button id="btn-2" type="button">Jowl hamburger</button>
+		
+		<nav>
+			<ul class="nav-list">
+				<li><a href="/">HOME</a></li><!--
+				--><li><a href="/pork/">Pork</a></li><!--
+				--><li><a href="/kielbasa/">Kielbasa & Cow</a></li><!--
+				--><li><a href="/filet/">Filet</a></li><!--
+				--><li><a href="/tenderloin/">Tenderloin</a></li><!--
+				--><li><a href="/flank/">Flank</a></li><!--
+				--><li><a href="/contact/">Contact us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section class="main">
+		<img class="main_image" src="http://lorempixel.com/650/325/city/2/" alt="Main Image" Title="Main Image">
+		<h2>Pellentesque bibendum laoreet lacus.</h2>
+		<h3>Pork belly t-bone chuck bacon.<br> Jowl hamburger picanha kevin kielbasa.</h3>
+		<img class="grand" src="http://lorempixel.com/650/165/city/7/" alt="Lower Image"
+		title="Lower Image">
+		
+		<section class="lower">
+		<p><b>Bacon ipsum dolor</b> amet salami ham hock jerky shoulder flank. Porchetta chuck cupim 
+		pancetta short loin ball tip. Beef fatback pork sausage, pig doner tri-tip flank.</p>
+		
+		<p><b>Beef ribs pancetta</b> pork chop, capicola short loin biltong pork filet mignon boudin
+		meatloaf pastrami tongue. Sausage prosciutto drumstick picanha chuck short ribs ground 
+		round jerky salami brisket t-bone beef fatback.</p>
+		
+		<p><b>Prosciutto strip steak</b> hamburger, shoulder frankfurter chicken tenderloin pastrami
+		pork chop pig. Jowl pork belly ground round meatball, drumstick pork strip steak bacon 
+		biltong bresaola ribeye. Chicken shankle biltong frankfurter hamburger.</p>
+		</section>
+	</section>
+	
+	<aside class="right">
+		<img src="http://lorempixel.com/450/110/sports/1" alt="Top sidebar pic" title="Top Sidebar Pic">
+		<h5>Pastrami bacon</h5>
+		<img src="http://lorempixel.com/450/110/sports/2" alt="Middle Sidebar Pic" title="Middle Sidebar Pic">
+		<h5>picanha short loin</h5>
+		<img src="http://lorempixel.com/450/110/sports/3" alt="Bottom Sidebar Pic" title="Bottom Sidebar Pic">
+		<h5>meatball jowl prosciutto</h5>
+		
+		<ul class="side-list">
+			<li>Turducken tongue shankle</li>
+			<li>Kielbasa jowl corned beef</li>
+			<li>Pork belly jowl</li>
+			<li>Filet mignon short loin</li>
+		</ul>
+		
+		<article class="news">
+			<h3>Salami pork chop</h3>
+			<p>Doner strip steak do, anim duis drumstick turducken adipisicing. Salami pork chop 
+			capicola jowl short ribs esse elit laborum. Bacon pork nisi, dolore exercitation hamburger 
+			drumstick mollit quis consectetur ad lorem labore. In proident duis nostrud, officia non 
+			est picanha aliquip dolore ham hock. Laboris kielbasa picanha porchetta eu jerky ea 
+			kevin enim meatloaf aute.</p>
+		</article>
+		
+	</aside>
+	
+	
+	<footer class="foot">
+		<h6>&#169; Filet mignon shoulder porchetta venison tri-tip boudin pancetta, brisket kevin turducken andouille 
+		tail strip steak.</h6>
+	</footer>
+	
+</div>
+<script type="text/javascript" src="JS/samplePageJS.js"></script>
+</body>
+
+</html>
